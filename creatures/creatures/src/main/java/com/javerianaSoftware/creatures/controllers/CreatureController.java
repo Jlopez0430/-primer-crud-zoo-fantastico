@@ -23,7 +23,7 @@ public class CreatureController {
         return ResponseEntity.status(HttpStatus.CREATED).body(newCreature);
     }
     @GetMapping
-    public List<Creature> getAllCreatures() {
+    public List<Creature> 798() {
         return creatureService.getAllCreatures();
     }
     @GetMapping("/{id}")
