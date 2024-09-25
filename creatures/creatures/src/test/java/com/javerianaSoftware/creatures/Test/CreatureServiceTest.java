@@ -1,12 +1,12 @@
-package com.javerianaSoftware.creatures.Test;
+package test.java.com.javerianaSoftware.creatures.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 import java.util.Optional;
 
-import com.javerianaSoftware.creatures.model.Creature;
-import com.javerianaSoftware.creatures.repository.CreatureRepository;
-import com.javerianaSoftware.creatures.services.CreatureService;
+import main.java.com.javerianaSoftware.creatures.model.Creature;
+import main.java.com.javerianaSoftware.creatures.repository.CreatureRepository;
+import main.java.com.javerianaSoftware.creatures.services.CreatureService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;

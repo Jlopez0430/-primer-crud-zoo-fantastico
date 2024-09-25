@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e654a435-ba0e-4d8e-a75c-5c18e6ce79bf" name="Changes" comment="remove trash code from app.pro">
+      <change beforePath="$PROJECT_DIR$/creatures/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/creatures/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/creatures/src/main/java/com/javerianaSoftware/creatures/CreaturesLabApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/creatures/src/main/java/com/javerianaSoftware/creatures/CreaturesLabApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/creatures/src/main/java/com/javerianaSoftware/creatures/controllers/CreatureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/creatures/src/main/java/com/javerianaSoftware/creatures/controllers/CreatureController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/creatures/src/main/java/com/javerianaSoftware/creatures/controllers/ZoneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/creatures/src/main/java/com/javerianaSoftware/creatures/controllers/ZoneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/creatures/src/main/java/com/javerianaSoftware/creatures/model/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/creatures/src/main/java/com/javerianaSoftware/creatures/model/Creature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/creatures/src/main/java/com/javerianaSoftware/creatures/model/Zone.java" beforeDir="false" afterPath="$PROJECT_DIR$/creatures/src/main/java/com/javerianaSoftware/creatures/model/Zone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/creatures/src/main/java/com/javerianaSoftware/creatures/repository/CreatureRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/creatures/src/main/java/com/javerianaSoftware/creatures/repository/CreatureRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/creatures/src/main/java/com/javerianaSoftware/creatures/repository/ZoneRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/creatures/src/main/java/com/javerianaSoftware/creatures/repository/ZoneRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/creatures/src/main/java/com/javerianaSoftware/creatures/services/CreatureService.java" beforeDir="false" afterPath="$PROJECT_DIR$/creatures/src/main/java/com/javerianaSoftware/creatures/services/CreatureService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/creatures/src/main/java/com/javerianaSoftware/creatures/services/ZoneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/creatures/src/main/java/com/javerianaSoftware/creatures/services/ZoneService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/creatures/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/creatures/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/creatures/src/test/java/com/javerianaSoftware/creatures/CreaturesLabApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/creatures/src/test/java/com/javerianaSoftware/creatures/CreaturesLabApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/creatures/src/test/java/com/javerianaSoftware/creatures/Test/CreatureServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/creatures/src/test/java/com/javerianaSoftware/creatures/Test/CreatureServiceTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2mOBVJMKMUPevfBuSzCn8yjfdgz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CreaturesLabApplication.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.CreaturesLabApplication.executor": "Run",
+    "git-widget-placeholder": "feature/andreslopez",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/diego/Downloads/mysql-connector-j-8.2.0",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.5443038",
+    "settings.editor.selected.configurable": "configurable.group.build",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql",
+      "mysql_aurora_aws"
+    ]
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="CreaturesLabApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="creatures" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="main.java.com.javerianaSoftware.creatures.CreaturesLabApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.com.javerianaSoftware.creatures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CreaturesLabApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e654a435-ba0e-4d8e-a75c-5c18e6ce79bf" name="Changes" comment="" />
+      <created>1726937764625</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726937764625</updated>
+      <workItem from="1726937765677" duration="14345000" />
+    </task>
+    <task id="LOCAL-00001" summary="remove trash code from app.pro">
+      <option name="closed" value="true" />
+      <created>1727098966472</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727098966472</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="remove trash code from app.pro" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove trash code from app.pro" />
+  </component>
+</project>

@@ -1,7 +1,7 @@
-package com.javerianaSoftware.creatures.controllers;
+package main.java.com.javerianaSoftware.creatures.controllers;
 
-import com.javerianaSoftware.creatures.model.Creature;
-import com.javerianaSoftware.creatures.services.CreatureService;
+import main.java.com.javerianaSoftware.creatures.model.Creature;
+import main.java.com.javerianaSoftware.creatures.services.CreatureService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
