@@ -1,8 +1,6 @@
 package com.example.demo.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
+import jakarta.persistence.*;
 import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -79,7 +77,7 @@ public class Creature {
         this.healthStatus = healthStatus;
     }
 
-    //@ManyToOne
-//    @JoinColumn(name = "zone_id")
-//    private Zone zone;
+    @ManyToOne
+    @JoinColumn(name = "zone_id")
+    private Zone zone;
 }

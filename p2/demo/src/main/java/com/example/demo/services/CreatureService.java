@@ -1,18 +1,23 @@
 package com.example.demo.services;
 
 import com.example.demo.model.Creature;
+import com.example.demo.model.Zone;
 import com.example.demo.repository.CreatureRepository;
+import com.example.demo.repository.ZoneRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
+
 @Service
 public class CreatureService {
     private final CreatureRepository creatureRepository;
+    private final ZoneRepository zoneRepository;
 
     @Autowired
-    public CreatureService(CreatureRepository creatureRepository) {
-        this.creatureRepository = creatureRepository;
+    public CreatureService(CreatureRepository creatureRepository, ZoneRepository zoneRepository     ) {
+        this.creatureRepository = creatureRepository; this.zoneRepository = zoneRepository;
     }
 
     public Creature createCreature(Creature creature) {
@@ -51,4 +56,23 @@ public class CreatureService {
             throw new IllegalStateException("Cannot delete a creature in critical health");
         }
     }
+
+    public Creature assignZoneToCreature(Long creatureId, Long zoneId) {
+        Optional<Creature> creatureOptional = creatureRepository.findById(creatureId);
+        if (!creatureOptional.isPresent()) {
+            throw new RuntimeException("Creature not found");
+        }
+        Creature creature = creatureOptional.get();
+
+        Optional<Zone> zoneOptional = zoneRepository.findById(zoneId);
+        if (!zoneOptional.isPresent()) {
+            throw new RuntimeException("Zone not found");
+        }
+        Zone zone = zoneOptional.get();
+
+        creature.setZone(zone);
+        return creatureRepository.save(creature);
+    }
+
+
 }
