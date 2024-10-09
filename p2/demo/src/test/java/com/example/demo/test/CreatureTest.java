@@ -103,5 +103,4 @@ public class CreatureTest {
         assertEquals(zone.getId(), foundCreature.getZone().getId());
     }
 
-
 }
