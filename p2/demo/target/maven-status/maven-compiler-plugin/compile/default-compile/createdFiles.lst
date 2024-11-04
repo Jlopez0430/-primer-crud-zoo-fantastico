@@ -1,0 +1,9 @@
+com\example\demo\DemoApplication.class
+com\example\demo\controllers\ZoneController.class
+com\example\demo\model\Creature.class
+com\example\demo\services\ZoneService.class
+com\example\demo\controllers\CreatureController.class
+com\example\demo\repository\CreatureRepository.class
+com\example\demo\services\CreatureService.class
+com\example\demo\model\Zone.class
+com\example\demo\repository\ZoneRepository.class

@@ -1,0 +1,5 @@
+com\example\demo\test\CreatureTest.class
+com\example\demo\DemoApplicationTests.class
+com\example\demo\test\CreatureServiceIntegrationTest.class
+com\example\demo\test\ZoneServiceIntegrationTest.class
+com\example\demo\test\ZoneTest.class
