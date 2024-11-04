@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06bb294c-8ff5-4ae5-9846-1ce65af4a9c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/h2database_h2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/test/java/com/example/demo/test/CreatureServiceIntegrationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/test/java/com/example/demo/test/ZoneServiceIntegrationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/test/java/com/example/demo/test/CreatureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/test/java/com/example/demo/test/CreatureTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/example/demo/DemoApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/example/demo/controllers/CreatureController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/example/demo/controllers/ZoneController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/example/demo/model/Creature.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/example/demo/model/Zone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/example/demo/repository/CreatureRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/example/demo/repository/ZoneRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/example/demo/services/CreatureService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/example/demo/services/ZoneService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/test/java/com/example/demo/test/ZoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/test/java/com/example/demo/test/ZoneTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,54 +31,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.CreatureServiceIntegrationTest.testCreatUpdateCreature_ShouldPersistInDatabase.executor": "Run",
-    "JUnit.CreatureServiceIntegrationTest.testCreateCreature_ShouldPersistInDatabase.executor": "Run",
-    "JUnit.CreatureServiceIntegrationTest.testDeleteCreature_ShouldPersistInDatabase.executor": "Run",
-    "JUnit.CreatureServiceIntegrationTest.testUpdateCreature_ShouldPersistInDatabase.executor": "Run",
-    "JUnit.CreatureTest$CreatureServiceIntegrationTest.executor": "Run",
-    "JUnit.CreatureTest.executor": "Run",
-    "JUnit.CreatureTest.testAddZoneCreature_ShouldReturnCreatureWithZone.executor": "Run",
-    "JUnit.CreatureTest.testCreateCreature_ShouldReturnSavedCreature.executor": "Run",
-    "JUnit.CreatureTest.testDeleteCreature_ShouldDeleteCreature.executor": "Debug",
-    "JUnit.CreatureTest.testDeleteCreature_ShouldReturnDeletedCreature.executor": "Debug",
-    "JUnit.CreatureTest.testGetCreatureById_ShouldReturnCreature.executor": "Run",
-    "JUnit.CreatureTest.testUpdateCreature_ShouldReturnUpdatedCreature.executor": "Run",
-    "JUnit.ZoneServiceIntegrationTest.testCreateZone_ShouldPersistInDatabase.executor": "Run",
-    "JUnit.ZoneTest.testCreateZone_ShouldReturnSavedZone.executor": "Run",
-    "JUnit.ZoneTest.testDeleteCreature_ShouldDeleteCreature.executor": "Run",
-    "JUnit.ZoneTest.testGetZoneById_ShouldReturnCreature.executor": "Run",
-    "JUnit.ZoneTest.testUpdateZone_ShouldReturnUpdatedZone.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.DemoApplication.executor": "Run",
-    "Spring Boot.gidDemoApplication.executor": "Run",
-    "git-widget-placeholder": "feature/damo",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/diego/-primer-crud-zoo-fantastico/p2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.1150748",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.CreatureServiceIntegrationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreatureServiceIntegrationTest.testCreatUpdateCreature_ShouldPersistInDatabase.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreatureServiceIntegrationTest.testCreateCreature_ShouldPersistInDatabase.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreatureServiceIntegrationTest.testDeleteCreature_ShouldPersistInDatabase.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreatureServiceIntegrationTest.testUpdateCreature_ShouldPersistInDatabase.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreatureTest$CreatureServiceIntegrationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreatureTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreatureTest.testAddZoneCreature_ShouldReturnCreatureWithZone.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreatureTest.testCreateCreature_ShouldReturnSavedCreature.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreatureTest.testDeleteCreature_ShouldDeleteCreature.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.CreatureTest.testDeleteCreature_ShouldReturnDeletedCreature.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.CreatureTest.testGetCreatureById_ShouldReturnCreature.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreatureTest.testUpdateCreature_ShouldReturnUpdatedCreature.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ZoneServiceIntegrationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ZoneServiceIntegrationTest.testCreateZone_ShouldPersistInDatabase.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ZoneTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ZoneTest.testCreateZone_ShouldReturnSavedZone.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ZoneTest.testDeleteCreature_ShouldDeleteCreature.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ZoneTest.testGetZoneById_ShouldReturnCreature.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ZoneTest.testUpdateZone_ShouldReturnUpdatedZone.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.DemoApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.gidDemoApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/damo&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/diego/proyecto2-front&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.1150748&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.ZoneServiceIntegrationTest">
-    <configuration name="CreatureServiceIntegrationTest.testCreateCreature_ShouldPersistInDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="Spring Boot.DemoApplication">
+    <configuration name="CreatureServiceIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -103,13 +91,12 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.demo.test" />
       <option name="MAIN_CLASS_NAME" value="com.example.demo.test.CreatureServiceIntegrationTest" />
-      <option name="METHOD_NAME" value="testCreateCreature_ShouldPersistInDatabase" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreatureServiceIntegrationTest.testDeleteCreature_ShouldPersistInDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreatureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -118,25 +105,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.demo.test" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.test.CreatureServiceIntegrationTest" />
-      <option name="METHOD_NAME" value="testDeleteCreature_ShouldPersistInDatabase" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreatureServiceIntegrationTest.testUpdateCreature_ShouldPersistInDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo.test" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.test.CreatureServiceIntegrationTest" />
-      <option name="METHOD_NAME" value="testUpdateCreature_ShouldPersistInDatabase" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.test.CreatureTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -172,6 +142,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZoneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.test" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.test.ZoneTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
@@ -188,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ZoneTest" />
+        <item itemvalue="JUnit.CreatureTest" />
+        <item itemvalue="JUnit.CreatureServiceIntegrationTest" />
         <item itemvalue="JUnit.ZoneServiceIntegrationTest" />
         <item itemvalue="JUnit.ZoneServiceIntegrationTest.testCreateZone_ShouldPersistInDatabase" />
-        <item itemvalue="JUnit.CreatureServiceIntegrationTest.testDeleteCreature_ShouldPersistInDatabase" />
-        <item itemvalue="JUnit.CreatureServiceIntegrationTest.testUpdateCreature_ShouldPersistInDatabase" />
-        <item itemvalue="JUnit.CreatureServiceIntegrationTest.testCreateCreature_ShouldPersistInDatabase" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +199,13 @@
       <updated>1727277800568</updated>
       <workItem from="1727277801615" duration="4391000" />
       <workItem from="1727698833959" duration="18288000" />
-      <workItem from="1728308959826" duration="11932000" />
+      <workItem from="1728308959826" duration="19697000" />
+      <workItem from="1728649562222" duration="7561000" />
+      <workItem from="1729021473330" duration="15223000" />
+      <workItem from="1729191394729" duration="32000" />
+      <workItem from="1729194626681" duration="3682000" />
+      <workItem from="1729216368400" duration="2000" />
+      <workItem from="1730691160554" duration="2660000" />
     </task>
     <servers />
   </component>
@@ -228,6 +219,21 @@
           <url>file://$PROJECT_DIR$/demo/src/main/java/com/example/demo/services/CreatureService.java</url>
           <line>55</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo/src/main/java/com/example/demo/DemoApplication.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo/src/test/java/com/example/demo/test/CreatureServiceIntegrationTest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo/src/test/java/com/example/demo/test/ZoneTest.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/demo/src/test/java/com/example/demo/test/CreatureTest.java</url>
@@ -246,15 +252,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/demo/src/test/java/com/example/demo/test/CreatureTest.java</url>
-          <line>69</line>
-          <properties class="com.example.demo.test.CreatureTest" method="testDeleteCreature_ShouldDeleteCreature">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/demo/src/test/java/com/example/demo/test/ZoneTest.java</url>
