@@ -4,42 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06bb294c-8ff5-4ae5-9846-1ce65af4a9c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../creatures/creatures/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/DemoApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/controllers/CreatureController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/controllers/ZoneController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/model/Creature.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/model/Zone.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/repository/CreatureRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/repository/ZoneRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/services/CreatureService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/services/ZoneService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/demo-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/demo-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/surefire-reports/TEST-com.example.demo.DemoApplicationTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/surefire-reports/TEST-com.example.demo.test.CreatureServiceIntegrationTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/surefire-reports/TEST-com.example.demo.test.CreatureTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/surefire-reports/TEST-com.example.demo.test.ZoneServiceIntegrationTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/surefire-reports/TEST-com.example.demo.test.ZoneTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/surefire-reports/com.example.demo.DemoApplicationTests.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/surefire-reports/com.example.demo.test.CreatureServiceIntegrationTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/surefire-reports/com.example.demo.test.CreatureTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/surefire-reports/com.example.demo.test.ZoneServiceIntegrationTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/surefire-reports/com.example.demo.test.ZoneTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/test-classes/com/example/demo/DemoApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/test-classes/com/example/demo/test/CreatureServiceIntegrationTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/test-classes/com/example/demo/test/CreatureTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/test-classes/com/example/demo/test/ZoneServiceIntegrationTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/test-classes/com/example/demo/test/ZoneTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="06bb294c-8ff5-4ae5-9846-1ce65af4a9c6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +62,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.DemoApplication.executor": "Run",
     "Spring Boot.gidDemoApplication.executor": "Run",
-    "git-widget-placeholder": "Merging feature/damo",
+    "git-widget-placeholder": "feature/damo",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/diego/proyecto2-front",
     "node.js.detected.package.eslint": "true",
