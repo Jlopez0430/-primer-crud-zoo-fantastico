@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06bb294c-8ff5-4ae5-9846-1ce65af4a9c6" name="Changes" comment="" />
+    <list default="true" id="06bb294c-8ff5-4ae5-9846-1ce65af4a9c6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/demo-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/demo-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/demo-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/demo-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/surefire-reports/TEST-com.example.demo.DemoApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/surefire-reports/TEST-com.example.demo.DemoApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/surefire-reports/TEST-com.example.demo.test.CreatureServiceIntegrationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/surefire-reports/TEST-com.example.demo.test.CreatureServiceIntegrationTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/surefire-reports/TEST-com.example.demo.test.CreatureTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/surefire-reports/TEST-com.example.demo.test.CreatureTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/surefire-reports/TEST-com.example.demo.test.ZoneServiceIntegrationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/surefire-reports/TEST-com.example.demo.test.ZoneServiceIntegrationTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/surefire-reports/TEST-com.example.demo.test.ZoneTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/surefire-reports/TEST-com.example.demo.test.ZoneTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/surefire-reports/com.example.demo.DemoApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/surefire-reports/com.example.demo.DemoApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/surefire-reports/com.example.demo.test.CreatureServiceIntegrationTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/surefire-reports/com.example.demo.test.CreatureServiceIntegrationTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/surefire-reports/com.example.demo.test.CreatureTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/surefire-reports/com.example.demo.test.CreatureTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/surefire-reports/com.example.demo.test.ZoneTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/surefire-reports/com.example.demo.test.ZoneTest.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,8 +89,18 @@
     "project.structure.side.proportion": "0.1150748",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql_aurora_aws"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\diego\-primer-crud-zoo-fantastico\p2\demo" />
+    </key>
+  </component>
   <component name="RunManager" selected="Spring Boot.DemoApplication">
     <configuration name="CreatureServiceIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
