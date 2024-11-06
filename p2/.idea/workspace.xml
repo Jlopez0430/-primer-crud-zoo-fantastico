@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06bb294c-8ff5-4ae5-9846-1ce65af4a9c6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/demo/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/demo-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/demo-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/demo-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/demo-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/surefire-reports/TEST-com.example.demo.DemoApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/surefire-reports/TEST-com.example.demo.DemoApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/surefire-reports/TEST-com.example.demo.test.CreatureServiceIntegrationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/surefire-reports/TEST-com.example.demo.test.CreatureServiceIntegrationTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/surefire-reports/TEST-com.example.demo.test.CreatureTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/surefire-reports/TEST-com.example.demo.test.CreatureTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/surefire-reports/TEST-com.example.demo.test.ZoneServiceIntegrationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/surefire-reports/TEST-com.example.demo.test.ZoneServiceIntegrationTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/surefire-reports/TEST-com.example.demo.test.ZoneTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/surefire-reports/TEST-com.example.demo.test.ZoneTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/surefire-reports/com.example.demo.DemoApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/surefire-reports/com.example.demo.DemoApplicationTests.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/surefire-reports/com.example.demo.test.CreatureServiceIntegrationTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/surefire-reports/com.example.demo.test.CreatureServiceIntegrationTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/surefire-reports/com.example.demo.test.CreatureTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/surefire-reports/com.example.demo.test.CreatureTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/surefire-reports/com.example.demo.test.ZoneTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/surefire-reports/com.example.demo.test.ZoneTest.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,60 +34,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.CreatureServiceIntegrationTest.executor": "Run",
-    "JUnit.CreatureServiceIntegrationTest.testCreatUpdateCreature_ShouldPersistInDatabase.executor": "Run",
-    "JUnit.CreatureServiceIntegrationTest.testCreateCreature_ShouldPersistInDatabase.executor": "Run",
-    "JUnit.CreatureServiceIntegrationTest.testDeleteCreature_ShouldPersistInDatabase.executor": "Run",
-    "JUnit.CreatureServiceIntegrationTest.testUpdateCreature_ShouldPersistInDatabase.executor": "Run",
-    "JUnit.CreatureTest$CreatureServiceIntegrationTest.executor": "Run",
-    "JUnit.CreatureTest.executor": "Run",
-    "JUnit.CreatureTest.testAddZoneCreature_ShouldReturnCreatureWithZone.executor": "Run",
-    "JUnit.CreatureTest.testCreateCreature_ShouldReturnSavedCreature.executor": "Run",
-    "JUnit.CreatureTest.testDeleteCreature_ShouldDeleteCreature.executor": "Debug",
-    "JUnit.CreatureTest.testDeleteCreature_ShouldReturnDeletedCreature.executor": "Debug",
-    "JUnit.CreatureTest.testGetCreatureById_ShouldReturnCreature.executor": "Run",
-    "JUnit.CreatureTest.testUpdateCreature_ShouldReturnUpdatedCreature.executor": "Run",
-    "JUnit.ZoneServiceIntegrationTest.executor": "Run",
-    "JUnit.ZoneServiceIntegrationTest.testCreateZone_ShouldPersistInDatabase.executor": "Run",
-    "JUnit.ZoneTest.executor": "Run",
-    "JUnit.ZoneTest.testCreateZone_ShouldReturnSavedZone.executor": "Run",
-    "JUnit.ZoneTest.testDeleteCreature_ShouldDeleteCreature.executor": "Run",
-    "JUnit.ZoneTest.testGetZoneById_ShouldReturnCreature.executor": "Run",
-    "JUnit.ZoneTest.testUpdateZone_ShouldReturnUpdatedZone.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.DemoApplication.executor": "Run",
-    "Spring Boot.gidDemoApplication.executor": "Run",
-    "git-widget-placeholder": "develop",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/diego/proyecto2-front",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.1150748",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.CreatureServiceIntegrationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreatureServiceIntegrationTest.testCreatUpdateCreature_ShouldPersistInDatabase.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreatureServiceIntegrationTest.testCreateCreature_ShouldPersistInDatabase.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreatureServiceIntegrationTest.testDeleteCreature_ShouldPersistInDatabase.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreatureServiceIntegrationTest.testUpdateCreature_ShouldPersistInDatabase.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreatureTest$CreatureServiceIntegrationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreatureTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreatureTest.testAddZoneCreature_ShouldReturnCreatureWithZone.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreatureTest.testCreateCreature_ShouldReturnSavedCreature.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreatureTest.testDeleteCreature_ShouldDeleteCreature.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.CreatureTest.testDeleteCreature_ShouldReturnDeletedCreature.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.CreatureTest.testGetCreatureById_ShouldReturnCreature.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreatureTest.testUpdateCreature_ShouldReturnUpdatedCreature.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ZoneServiceIntegrationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ZoneServiceIntegrationTest.testCreateZone_ShouldPersistInDatabase.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ZoneTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ZoneTest.testCreateZone_ShouldReturnSavedZone.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ZoneTest.testDeleteCreature_ShouldDeleteCreature.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ZoneTest.testGetZoneById_ShouldReturnCreature.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ZoneTest.testUpdateZone_ShouldReturnUpdatedZone.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.DemoApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.gidDemoApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/diego/proyecto2-front&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.1150748&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql_aurora_aws"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql_aurora_aws&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\diego\-primer-crud-zoo-fantastico\p2\demo" />
@@ -227,6 +219,7 @@
       <workItem from="1729194626681" duration="3682000" />
       <workItem from="1729216368400" duration="2000" />
       <workItem from="1730691160554" duration="2660000" />
+      <workItem from="1730838826005" duration="1178000" />
     </task>
     <servers />
   </component>
